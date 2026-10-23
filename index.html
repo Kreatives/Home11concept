@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home11 · Persoonlijk voetbalmanagement</title>
+<meta name="description" content="Home11 begeleidt ambitieuze voetballers en hun families bij clubkeuzes en contracten, met een eigen fysio, gym, extra trainingen en videoanalyse om tegelijk aan je volgende stap te werken.">
+
+<!-- Typekit: koppen "veneer", body "transducer" -->
+<link rel="stylesheet" href="https://use.typekit.net/nym3xhu.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+<link rel="stylesheet" href="assets/styles.v4.css?v=ux6">
+</head>
+
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="shell nav__inner">
+    <a href="index.html" class="brand">Home11</a>
+    <nav class="nav__links" aria-label="Hoofdmenu">
+      <a href="over.html" class="nav__link" data-nav="over">Over ons</a>
+      <a href="diensten.html" class="nav__link" data-nav="diensten">Wat we doen</a>
+      <a href="aanpak.html" class="nav__link" data-nav="aanpak">Aanpak</a>
+      <a href="spelers.html" class="nav__link" data-nav="spelers">Spelers</a>
+      <a href="nieuws.html" class="nav__link" data-nav="nieuws">Nieuws</a>
+    </nav>
+    <a href="contact.html" class="textlink nav__cta">Plan een kennismaking<span class="textlink__arrow"></span></a>
+    <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ 1. HERO ============ -->
+  <!-- Contrast-check hero: off-white op video + donkere overlay (links ~88% zwart waar de tekst staat), ratio ≥ 10:1 ✓ -->
+  <section class="hero" id="hero">
+    <div class="hero__media" aria-hidden="true">
+      <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="">
+        <source src="assets/hero.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="hero__frame" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__head">
+        <span class="label hero__kicker reveal">Persoonlijk voetbalmanagement</span>
+        <h1 class="title hero__title reveal" data-split>Een eigen thuisbasis<br><span class="hero__second-line">om verder te groeien</span></h1>
+      </div>
+      <div class="hero__aside">
+        <p class="hero__lead reveal">Home11 begeleidt ambitieuze voetballers en hun families bij clubkeuzes en contracten. Met onze eigen fysio, gym, extra trainingen en videoanalyse werk je tegelijk aan je volgende stap.</p>
+        <div class="hero__actions reveal">
+          <a href="#kennismaken" class="btn btn--primary">Plan een kennismaking<span class="btn__arrow"></span></a>
+          <a href="#aanpak" class="textlink">Bekijk onze aanpak<span class="textlink__arrow"></span></a>
+        </div>
+      </div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #0E0E0C"></span>
+</section>
+
+  <!-- ============ 2. TWEE ROUTES ============ -->
+  <section class="section section-art section-art--field" id="routes"><span class="section-paper" aria-hidden="true"></span>
+    <div class="shell">
+      <div class="section__head section__head--center">
+        <span class="label reveal">Waar sta je nu</span>
+        <h2 class="title reveal" data-split>Twee wegen, <span class="accent">dezelfde begeleiding</span></h2>
+      </div>
+      <div class="routes">
+        <a href="#aanpak" class="route-card reveal">
+          <div class="ph-media"><img class="ph-img" src="assets/route-groei.png" alt="Speler die zijn veters strikt langs het veld"></div>
+          <span class="route-card__frame" aria-hidden="true"></span>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <div class="route-card__body">
+            <h3 class="route-card__title">Je groeit door en wilt de juiste volgende stap</h3>
+            <p>Je speelt op niveau en er komt interesse, en je wilt dat de volgende club echt bij je past in plaats van de eerste de beste kans.</p>
+            <span class="textlink">Ontdek hoe<span class="textlink__arrow"></span></span>
+          </div>
+        </a>
+        <a href="#aanpak" class="route-card reveal">
+          <div class="ph-media"><img class="ph-img" src="assets/route-afgevallen.png" alt="Speler die een sprint trekt op het trainingsveld"></div>
+          <span class="route-card__frame" aria-hidden="true"></span>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <div class="route-card__body">
+            <h3 class="route-card__title">Je bent afgevallen en wilt opnieuw perspectief</h3>
+            <p>Je zoekt een nieuwe club, een nieuw ritme en iemand die in je blijft geloven, ook nadat je bent afgevallen bij je opleiding.</p>
+            <span class="textlink">Ontdek hoe<span class="textlink__arrow"></span></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #B5532F"></span>
+</section>
+
+  <!-- ============ 3. WIE WE ZIJN (oranje) ============ -->
+  <section class="section sec--orange" id="over"><span class="section-paper" aria-hidden="true"></span>
+    <div class="shell">
+      <div class="head-split">
+        <span class="label reveal">Wie we zijn</span>
+        <h2 class="title reveal" data-split>Mensen die je al kennen<br>voordat het spannend wordt</h2>
+        <p class="reveal">Home11 is opgezet door mensen met jarenlange ervaring in de jeugdopleiding, en we hebben het bureau bewust klein genoeg gehouden om iedereen echt te leren kennen. Je krijgt bij ons één vast aanspreekpunt dat je door het hele traject heen begeleidt, zodat je nooit opnieuw hoeft uit te leggen wie je bent of waar je staat.</p>
+      </div>
+      <div class="team">
+        <div class="person reveal">
+          <span class="label person__label">Vast aanspreekpunt</span>
+          <div class="person__media">
+            <div class="ph-media"><img class="ph-img" src="assets/team-aanspreekpunt.png" alt="Vast aanspreekpunt met voetbal"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <span class="person__name">Naam volgt</span>
+          </div>
+        </div>
+        <div class="person reveal">
+          <span class="label person__label">Trainer en video-analist</span>
+          <div class="person__media">
+            <div class="ph-media"><img class="ph-img" src="assets/team-trainer.png" alt="Trainer en video-analist met tablet"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <span class="person__name">Naam volgt</span>
+          </div>
+        </div>
+        <div class="person reveal">
+          <span class="label person__label">Fysiotherapeut</span>
+          <div class="person__media">
+            <div class="ph-media"><img class="ph-img" src="assets/team-fysio.png" alt="Fysiotherapeut"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <span class="person__name">Naam volgt</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #0E0E0C"></span>
+</section>
+
+  <!-- ============ 4. WAT WE DOEN ============ -->
+  <section class="section section-art" id="diensten"><span class="section-paper" aria-hidden="true"></span>
+    <div class="shell">
+      <div class="section__head section__head--center">
+        <span class="label reveal">Wat we doen</span>
+        <h2 class="title reveal" data-split>Je toekomstplan en je dagelijkse<br><span class="accent">groei</span> horen bij elkaar</h2>
+      </div>
+      <div class="tabs-wrap reveal">
+        <div class="tabs" role="tablist">
+          <button class="tab is-active" data-tab="carriere" role="tab" aria-selected="true">Carrière</button>
+          <button class="tab" data-tab="ontwikkeling" role="tab" aria-selected="false">Ontwikkeling</button>
+        </div>
+      </div>
+
+      <div class="panel is-active" data-panel="carriere">
+        <div class="services-grid photo-dots">
+          <article class="service-card reveal">
+            <div class="ph-media"><img class="ph-img" src="assets/carriere-planning.png" alt="Planning op een whiteboard met speler"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Planning</h3>
+              <p>We kijken seizoen na seizoen vooruit en bepalen samen welke stap op welk moment logisch is voor jouw ontwikkeling.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="ph-media"><img class="ph-img" src="assets/carriere-clubkeuze.png" alt="Speler en begeleider kijken naar een wedstrijd"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Clubkeuze</h3>
+              <p>We wegen speelminuten, niveau en de mensen bij een club tegen elkaar af, zodat je ergens terechtkomt waar je echt verder komt.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="ph-media"><img class="ph-img" src="assets/carriere-contract.png" alt="Contract wordt besproken aan tafel"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Contractvragen</h3>
+              <p>We leggen elke afspraak helder uit en voeren de gesprekken, zodat je weet wat je tekent voordat je je handtekening zet.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="ontwikkeling">
+        <div class="services-grid photo-dots services-grid--4">
+          <article class="service-card reveal">
+            <div class="ph-media"><img class="ph-img" src="assets/ontw-training.png" alt="Extra training op het veld"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Extra trainingen</h3>
+              <p>Naast je club werk je bij ons gericht aan de onderdelen waarop je het verschil kunt maken.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="ph-media"><img class="ph-img" src="assets/fysio.png" alt="Fysioruimte"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Fysio</h3>
+              <p>Een vaste fysio die je lichaam kent, blessures voor is en je sneller terugbrengt op het veld.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="ph-media"><img class="ph-img" src="assets/gym.png" alt="Gym met gewichten"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Gym</h3>
+              <p>Kracht, snelheid en stabiliteit opbouwen in onze eigen gym, afgestemd op jouw positie en leeftijd.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="ph-media"><img class="ph-img" src="assets/analyse.png" alt="Analyseruimte met tactiekbord"></div>
+            <div class="media-scrim" aria-hidden="true"></div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Videoanalyse</h3>
+              <p>Samen kijken we je wedstrijden terug en wijzen we aan waar je keuzes beter kunnen, beeld voor beeld.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #030303"></span>
+</section>
+
+  <!-- ============ 5. ONZE EIGEN PLEK (slider) ============ -->
+  <section class="section sec--plek" id="plek"><span class="section-paper" aria-hidden="true"></span>
+    <div class="shell">
+      <div class="section__head section__head--center">
+        <span class="label reveal">Onze eigen plek</span>
+        <h2 class="title reveal" data-split>Wat we beloven, staat<br>gewoon bij ons in huis</h2>
+      </div>
+      <div class="places__tabs reveal">
+        <button class="places__tab" data-slide="0">Gym</button>
+        <button class="places__tab is-active" data-slide="1">Fysioruimte</button>
+        <button class="places__tab" data-slide="2">Analyseruimte</button>
+      </div>
+    </div>
+    <div class="shell">
+      <div class="places__track" id="placesTrack">
+        <article class="place-slide">
+          <div class="ph-media"><img class="ph-img" src="assets/gym.png" alt="Onze eigen gym"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <div class="place-slide__body">
+            <h3 class="place-slide__title">Gym</h3>
+            <p>Onze eigen gym voor kracht en snelheid, vlakbij in plaats van ingehuurd.</p>
+          </div>
+        </article>
+        <article class="place-slide">
+          <div class="ph-media"><img class="ph-img" src="assets/fysio.png" alt="Onze eigen fysioruimte"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <div class="place-slide__body">
+            <h3 class="place-slide__title">Fysioruimte</h3>
+            <p>Een vaste fysio die je blessures kent en je sneller terug op het veld krijgt.</p>
+          </div>
+        </article>
+        <article class="place-slide">
+          <div class="ph-media"><img class="ph-img" src="assets/analyse.png" alt="Onze eigen analyseruimte"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <div class="place-slide__body">
+            <h3 class="place-slide__title">Analyseruimte</h3>
+            <p>Videoanalyse waarin we samen je beslissingen terugkijken en aanwijzen waar je groeit.</p>
+          </div>
+        </article>
+      </div>
+      <div class="places__progress"><span id="placesBar"></span></div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #0E0E0C"></span>
+</section>
+
+  <!-- ============ 6. ONZE AANPAK ============ -->
+  <section class="section section-art" id="aanpak"><span class="section-paper" aria-hidden="true"></span>
+    <div class="shell approach">
+      <div class="approach__intro">
+        <span class="label reveal">Onze aanpak</span>
+        <h2 class="title reveal" data-split>Een duidelijk plan, <span class="accent">vanaf de keukentafel</span></h2>
+        <div class="reveal"><a href="#kennismaken" class="btn btn--primary">Lees onze volledige aanpak<span class="btn__arrow"></span></a></div>
+      </div>
+      <div class="approach__steps photo-dots">
+        <article class="step-card reveal">
+          <div class="ph-media"><img class="ph-img" src="assets/aanpak-lerenkennen.png" alt="Kennismaking aan de keukentafel"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="step-card__num" aria-hidden="true">01</span>
+          <div class="step-card__body">
+            <h3 class="step-card__title">Leren kennen</h3>
+            <p>We beginnen bij de jongen achter de voetballer en zijn familie, aan de keukentafel, voordat we het over clubs hebben.</p>
+          </div>
+        </article>
+        <article class="step-card reveal">
+          <div class="ph-media"><img class="ph-img" src="assets/aanpak-plan.png" alt="Samen een plan maken"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="step-card__num" aria-hidden="true">02</span>
+          <div class="step-card__body">
+            <h3 class="step-card__title">Samen een plan maken</h3>
+            <p>We brengen je niveau, je speelminuten en je wensen in kaart en maken daar een plan van dat bij jou past.</p>
+          </div>
+        </article>
+        <article class="step-card reveal">
+          <div class="ph-media"><img class="ph-img" src="assets/aanpak-clubs.png" alt="Clubs benaderen, handdruk"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="step-card__num" aria-hidden="true">03</span>
+          <div class="step-card__body">
+            <h3 class="step-card__title">Clubs benaderen</h3>
+            <p>We benaderen clubs die echt bij je passen, voeren de gesprekken en leggen de afspraken helder voor je vast.</p>
+          </div>
+        </article>
+        <article class="step-card reveal">
+          <div class="ph-media"><img class="ph-img" src="assets/aanpak-begeleiden.png" alt="Blijven begeleiden na de overstap"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="step-card__num" aria-hidden="true">04</span>
+          <div class="step-card__body">
+            <h3 class="step-card__title">Blijven begeleiden</h3>
+            <p>Ook na je overstap blijven we bellen, samen trainen en in de gaten houden hoe het thuis en op het veld gaat.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #ffffff"></span>
+</section>
+
+  <!-- ============ 7. SPELERS (slider) ============ -->
+  <section class="section sec--light" id="spelers"><span class="section-paper" aria-hidden="true"></span>
+    <div class="shell">
+      <div class="section__head">
+        <span class="label reveal">Onze spelers</span>
+        <h2 class="title reveal" data-split>Jongens die dezelfde weg al liepen</h2>
+      </div>
+    </div>
+    <div class="shell">
+      <div class="players__track" id="playersTrack">
+        <article class="player-card">
+          <div class="ph-media"><img class="ph-img" src="assets/speler-1.png" alt="Portret van een speler"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="player-card__name">Naam volgt</span>
+        </article>
+        <article class="player-card">
+          <div class="ph-media"><img class="ph-img" src="assets/speler-2.png" alt="Portret van een speler"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="player-card__name">Naam volgt</span>
+        </article>
+        <article class="player-card">
+          <div class="ph-media"><img class="ph-img" src="assets/speler-3.png" alt="Portret van een speler"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="player-card__name">Naam volgt</span>
+        </article>
+        <article class="player-card">
+          <div class="ph-media"><img class="ph-img" src="assets/speler-4.png" alt="Portret van een speler"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="player-card__name">Naam volgt</span>
+        </article>
+        <article class="player-card">
+          <div class="ph-media"><img class="ph-img" src="assets/speler-1.png" alt="Portret van een speler"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="player-card__name">Naam volgt</span>
+        </article>
+        <article class="player-card">
+          <div class="ph-media"><img class="ph-img" src="assets/speler-2.png" alt="Portret van een speler"></div>
+          <div class="media-scrim" aria-hidden="true"></div>
+          <span class="player-card__name">Naam volgt</span>
+        </article>
+      </div>
+      <div class="players__foot">
+        <div class="players__progress"><span id="playersBar"></span></div>
+        <div class="players__nav">
+          <button class="slider-arrow" id="playersPrev" aria-label="Vorige">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 5l-7 7 7 7"/></svg>
+          </button>
+          <button class="slider-arrow" id="playersNext" aria-label="Volgende">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #0E0E0C"></span>
+</section>
+
+  <!-- ============ 8. ZO WERKEN WE EERLIJK ============ -->
+  <section class="section" id="eerlijk"><span class="section-paper" aria-hidden="true"></span>
+    <div class="shell">
+      <div class="head-split">
+        <span class="label reveal">Zo werken we eerlijk</span>
+        <h2 class="title reveal" data-split>Je weet bij ons altijd<br>waar je aan toe bent</h2>
+        <p class="reveal">In een wereld waar genoeg ouders en spelers al eens zijn teleurgesteld, maken we onze afspraken expres zo helder mogelijk, voordat je ze nodig hebt.</p>
+      </div>
+      <div class="fair__body">
+        <div class="fair__media reveal">
+          <div class="ph-media"><img class="ph-img" src="assets/eerlijk.png" alt="Gezin aan de keukentafel bespreekt afspraken"></div>
+        </div>
+        <div class="fair__grid reveal">
+          <div class="promise">
+            <div class="ph-icon promise__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="10" y="7" width="22" height="28" rx="2"/><path d="M15 15h12M15 21h12M15 27h7"/><circle cx="33" cy="33" r="6"/><path d="M30 38l-1 5 4-2 4 2-1-5"/></svg>
+            </div>
+            <h3 class="promise__title">Licenties op tafel</h3>
+            <p>We werken met de juiste licenties en laten je precies zien welke dat zijn.</p>
+          </div>
+          <div class="promise">
+            <div class="ph-icon promise__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 20l6-4 8 6 4-2 10 6M42 20l-6-4-6 4"/><path d="M24 20l5 4a2.5 2.5 0 01-3 4l-1-1M20 26l3 2M17 29l2 2M14 32l2 1"/></svg>
+            </div>
+            <h3 class="promise__title">Heldere afspraken</h3>
+            <p>Je weet vooraf hoe lang we samenwerken en hoe de vergoeding is geregeld, zwart op wit.</p>
+          </div>
+          <div class="promise">
+            <div class="ph-icon promise__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M24 7a13 13 0 00-8 23c1.5 1.2 2 2.5 2 4h12c0-1.5.5-2.8 2-4A13 13 0 0024 7z"/><path d="M19 38h10M21 42h6"/></svg>
+            </div>
+            <h3 class="promise__title">Eerlijke verwachtingen</h3>
+            <p>Je hoort van ons eerlijk waar je staat, ook als dat een ander antwoord is dan je hoopte.</p>
+          </div>
+          <div class="promise">
+            <div class="ph-icon promise__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="17" cy="16" r="5"/><circle cx="31" cy="16" r="5"/><path d="M9 38v-2a8 8 0 018-8 8 8 0 015 2M39 38v-2a8 8 0 00-8-8 8 8 0 00-5 2"/></svg>
+            </div>
+            <h3 class="promise__title">Ouders altijd betrokken</h3>
+            <p>Ouders kunnen ons altijd bellen, want we zitten liever een keer te veel aan de keukentafel dan te weinig.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #B5532F"></span>
+</section>
+
+  <!-- ============ 9. STEM VAN EEN OUDER (oranje) ============ -->
+  <!-- Contrast-check: donkere inkt #1A130D op klei #B5532F ≈ 5,5:1 ✓ -->
+  <section class="section sec--orange" id="ouder"><span class="section-paper" aria-hidden="true"></span>
+    <div class="shell">
+      <div class="voice">
+        <span class="voice__mark reveal" aria-hidden="true">&rdquo;</span>
+        <blockquote class="voice__quote">Vanaf het eerste gesprek ging het niet over grote beloftes maar over onze zoon, en in het jaar daarna hebben ze echt gedaan wat ze zeiden, ook toen het even tegenzat.</blockquote>
+        <div class="voice__person reveal">
+          <div class="voice__avatar"><img src="assets/avatar-henk.png" alt="Henk Grotemans"></div>
+          <div>
+            <p class="voice__name">Henk Grotemans</p>
+            <p class="voice__rel">Ouder van Henk</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #0E0E0C"></span>
+</section>
+
+  <!-- ============ 10. VOOR CLUBS ============ -->
+  <section class="clubs-sec" id="clubs">
+    <div class="clubs-sec__media" aria-hidden="true">
+      <div class="ph-media"><img class="ph-img" src="assets/clubs.png" alt="Twee mannen in gesprek op de tribune"></div>
+    </div>
+    <div class="shell">
+      <div class="clubs-sec__inner reveal">
+        <span class="label">Voor clubs</span>
+        <h2 class="title">Aan de andere kant van de tafel</h2>
+        <p>Bent u technisch directeur of scout en zoekt u contact over een van onze spelers? We denken graag met u mee over wat voor beide kanten van de tafel werkt.</p>
+        <a href="#kennismaken" class="btn btn--primary">Contact voor clubs<span class="btn__arrow"></span></a>
+      </div>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #0E0E0C"></span>
+</section>
+
+  <!-- ============ 11. KENNISMAKEN ============ -->
+  <section class="section section-art" id="kennismaken"><span class="section-paper" aria-hidden="true"></span>
+    <div class="shell meet">
+      <div class="meet__intro">
+        <span class="label reveal">Kennismaken</span>
+        <h2 class="title reveal" data-split>Begin met een gesprek, de rest volgt daarna</h2>
+        <p class="reveal">Stuur ons een bericht of bel gerust, dan plannen we een kennismaking op een moment dat jou uitkomt. Of je nu speler, ouder of club bent, we horen eerst graag waar je staat voordat we iets beloven.</p>
+        <div class="meet__person reveal">
+          <div class="meet__avatar"><img src="assets/avatar-henk.png" alt="Je vaste aanspreekpunt"></div>
+          <div>
+            <p class="meet__pname">Henk Grotemans</p>
+            <p class="meet__prole">Ouder van Henk</p>
+          </div>
+        </div>
+        <div class="meet__contacts reveal">
+          <div class="meet__contact"><span>Telefoon</span><strong>+31 6 12 29 28 12</strong></div>
+          <div class="meet__contact"><span>E-mail</span><strong>info@home11.nl</strong></div>
+        </div>
+      </div>
+
+      <form class="form reveal" id="contactForm" novalidate>
+        <p class="form__title">Intakeformulier</p>
+        <div class="field">
+          <select id="rol" name="rol" required>
+            <option value="" disabled selected>Maak een keuze</option>
+            <option value="speler">Ik ben speler</option>
+            <option value="ouder">Ik ben ouder</option>
+            <option value="club">Ik ben een club</option>
+          </select>
+        </div>
+        <div class="field--split">
+          <div class="field"><input type="text" id="naam" name="naam" placeholder="Je naam" required></div>
+          <div class="field"><input type="tel" id="tel" name="tel" placeholder="+31"></div>
+        </div>
+        <div class="field"><input type="email" id="email" name="email" placeholder="E-mail" required></div>
+        <div class="field"><textarea id="bericht" name="bericht" placeholder="Bericht"></textarea></div>
+        <button type="submit" class="btn btn--primary btn--block">Plan een kennismaking<span class="btn__arrow"></span></button>
+        <p class="form__note" id="formNote" aria-live="polite"></p>
+      </form>
+    </div>
+  <span class="section-divider" aria-hidden="true" style="--divider-color: #0E0E0C"></span>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer__top">
+      <div>
+        <p class="footer__brand">Home11</p>
+        <p class="footer__tagline">Persoonlijk voetbalmanagement met een eigen thuisbasis om verder te groeien.</p>
+      </div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h4>Site</h4>
+          <a href="over.html">Over ons</a>
+          <a href="diensten.html">Wat we doen</a>
+          <a href="aanpak.html">Aanpak</a>
+          <a href="spelers.html">Spelers</a>
+          <a href="nieuws.html">Nieuws</a>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <a href="contact.html">Kennismaken</a>
+          <a href="mailto:info@home11.nl">info@home11.nl</a>
+          <a href="tel:+31612292812">+31 6 12 29 28 12</a>
+        </div>
+        <div class="footer__col">
+          <h4>Volg ons</h4>
+          <a href="#" rel="noopener">Instagram</a>
+          <a href="#" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__wordmark" aria-hidden="true">HOME11</div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> Home11. Alle rechten voorbehouden.</span>
+      <span><a href="privacy.html">Privacy en cookie-instellingen</a></span>
+    <a class="footer__back" href="#">Terug naar boven <span aria-hidden="true">↑</span></a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ SCRIPTS ============ -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+<script src="assets/app.v4.js?v=ux2"></script>
+<button type="button" class="conversation-widget" aria-expanded="false" aria-controls="conversation-options" aria-label="Kies hoe je contact wilt opnemen">
+  <img src="assets/avatar-henk.png" alt="" width="52" height="52">
+  <span class="conversation-widget__copy"><strong>Plan een gesprek</strong><span>Persoonlijk &amp; vrijblijvend</span></span>
+  <span class="conversation-widget__plus" aria-hidden="true">+</span>
+</button>
+<nav id="conversation-options" class="conversation-options" aria-label="Contact opnemen" hidden>
+  <a href="tel:+31612292812"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 3 3 5-2 2c1.4 2.7 3.3 4.6 6 6l2-2 5 3-1 4C10 22 2 14 3 4Z"/></svg><span>Bellen</span></a>
+  <a href="mailto:info@home11.nl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><span>E-mail</span></a>
+  <a href="https://wa.me/31612292812" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.7 7.4L3 21l1.5-5A8.5 8.5 0 1 1 20.5 11.5Z"/><path d="m9 7 1.5 2.5-1 1c.8 1.6 1.9 2.6 3.5 3.4l1-1 2.5 1.5c-1 3-6.8.6-8.3-3.4C7.5 9 8 7.8 9 7Z"/></svg><span>WhatsApp</span></a>
+  <a href="contact.html#kennismaken" class="conversation-options__contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h10l4 4v14H5Z"/><path d="M14 3v5h5M8 12h8M8 16h6"/></svg><span>Contactpagina</span><span class="conversation-options__arrow" aria-hidden="true">→</span></a>
+</nav>
+</body>
+</html>

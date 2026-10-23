@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 600" fill="none" stroke="#F6F2EA" stroke-width="1">
+<g transform="translate(840 0) rotate(90)"><rect x="30" y="30" width="540" height="780" rx="2"/>
+<path d="M30 420h540M150 30v125h300V30M225 30v48h150V30M150 810V685h300v125M225 810v-48h150v48"/>
+<circle cx="300" cy="420" r="78"/>
+<path d="M235 155a78 78 0 0 0 130 0M235 685a78 78 0 0 1 130 0"/>
+
+</g></svg>
